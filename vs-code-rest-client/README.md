@@ -6,6 +6,6 @@ However, sometimes it is just great to know alternative ways to demo certain asp
 
 You can easily create your own scripts/documents (for the lack of a better word, I'll use scripts from now on) that include all the necessary steps that you want to focus on. Specific environments can be configured and used during the execution of these scripts. Thus making the script independent from the commercetools project that you want these requests to execute against.
 
-An example script can be found [here]() or in the section below. In addition to API it also allows you to specify GraphQL requests. Results from an API call can be stored in variables so that you can use these in subsequent calls (see access token variable @accesssToken as an example).
+An example script can be found [here](vscode demo.http) or in the section below. In addition to API it also allows you to specify GraphQL requests. Results from an API call can be stored in variables so that you can use these in subsequent calls (see access token variable @accesssToken as an example).
 
 As you will see, this script uses variables from an environment. This environment can be set-up in the VS Code settings.json.
