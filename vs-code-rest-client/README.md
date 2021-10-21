@@ -22,7 +22,7 @@ As you will see, this script uses variables from an environment. This environmen
             "clientSecret": "<CLIENT-SECRET>",
             "clientIdUser": "<CLIENT-ID>",
             "clientSecretUser": "<CLIENT-SECRET>",
-            "customerUsername": "harry.kimpel@commercetools.com",
+            "customerUsername": "<USERNAME>",
             "customerPassword": "<PASSWORD>"
         }
     }
