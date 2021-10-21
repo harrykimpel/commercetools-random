@@ -2,7 +2,7 @@
 
 Postman is a great tool to showcase how our APIs work. The collections are very sophisticated and provide all the details you need in order to demo our capabilities.
 
-However, sometimes it is just great to know alternative ways to demo certain aspects. Especially from a developer perspective, Visual Studio Code seems to be the de-facto standard nowadays. VS Code has a huge ecosystem of extensions available ... and one of these is REST Client created by Huachao Mao. Here is the link to the GitHub project also with documentation and additional examples. REST Client allows you to send HTTP request and view the response in Visual Studio Code directly.
+However, sometimes it is just great to know alternative ways to demo certain aspects. Especially from a developer perspective, Visual Studio Code seems to be the de-facto standard nowadays. VS Code has a huge ecosystem of extensions available ... and one of these is [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) created by Huachao Mao. Here is the link to the GitHub project also with documentation and additional examples. REST Client allows you to send HTTP request and view the response in Visual Studio Code directly.
 
 You can easily create your own scripts/documents (for the lack of a better word, I'll use scripts from now on) that include all the necessary steps that you want to focus on. Specific environments can be configured and used during the execution of these scripts. Thus making the script independent from the commercetools project that you want these requests to execute against.
 
