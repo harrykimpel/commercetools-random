@@ -8,10 +8,11 @@ You can easily create your own scripts/documents (for the lack of a better word,
 
 An example script can be found [here](https://github.com/harrykimpel/commercetools-random/blob/main/vs-code-rest-client/vscode%20demo.http) or in the section below. In addition to API it also allows you to specify GraphQL requests. Results from an API call can be stored in variables so that you can use these in subsequent calls (see access token variable @accesssToken as an example).
 
-As you will see, this script uses variables from an environment. This environment can be set-up in the VS Code settings.json. Please find a sample environment below:
+As you will see, this script uses variables from an environment. This environment can be set-up in the VS Code settings.json. Please find a sample environment snippet below:
 
 ```
-"rest-client.environmentVariables": {  
+...
+    "rest-client.environmentVariables": {  
         "$shared": {},
         "harry-kimpel-sunrise": {
             "baseAuthUrl": "https://auth.europe-west1.gcp.commercetools.com",
@@ -25,3 +26,5 @@ As you will see, this script uses variables from an environment. This environmen
             "customerPassword": "<PASSWORD>"
         }
     }
+...
+```
