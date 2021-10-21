@@ -67,15 +67,15 @@ Authorization: {{tokenType}} {{accesssToken}}
 X-REQUEST-TYPE: GraphQL
 
 query ($sku: String!, $locale: Locale!) { 
-        productProjectionSearch(text: $sku, locale: $locale, limit: 25) { 
-            total 
-            count 
-            results { 
-                id 
-                name (locale: $locale) 
-                slug (locale: $locale) 
-            } 
+    productProjectionSearch(text: $sku, locale: $locale, limit: 25) { 
+        total 
+        count 
+        results { 
+            id 
+            name (locale: $locale) 
+            slug (locale: $locale) 
         } 
+    } 
 }
 
 {
